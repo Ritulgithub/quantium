@@ -1,0 +1,19 @@
+import pandas as pd
+data_csv = pd.read_csv('daily_sales_data_0.csv')
+print(data_csv)
+data_csv={'pink morsel':1 ,'magenta morsel':2,'gold morsel':3,'lapis morsel':4,'chartreuse morsel':5,'periwinkle morsel':6,'vermilion morsel':7}
+print(data_csv)
+del data_csv['gold morsel']
+print(data_csv)
+del data_csv['magenta morsel']
+print(data_csv)
+del data_csv['lapis morsel']
+print(data_csv)
+del data_csv['chartreuse morsel']
+print(data_csv)
+del data_csv['periwinkle morsel']
+print(data_csv)
+del data_csv['vermilion morsel']
+print(data_csv)
+
+
